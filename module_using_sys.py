@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 23 14:22:45 2018
+
+@author: osboxes
+"""
+
+import sys
+from math import sqrt
+
+print('The command line arguments are:')
+for i in sys.argv:
+    print(i)
+
+print('\n\nThe PYTHONPATH is', sys.path, '\n')
+
+print("Square root of 16 is", sqrt(16))
